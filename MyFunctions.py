@@ -156,7 +156,7 @@ def cargo_regression_coefs(ruta,var):
                 
         ensemble = xr.concat(dic[model]['Members'],dim='member')
         dic[model]['EnsembleMean'] = ensemble.mean(dim="member")
-        os.chdir(thispath+'/Amon_Omon_recipe_allmodels_allmembers_additional_models_u850_sst_pr_tas_psl_20230529_080043/work/multiple_regression_indices/multiple_regresion/')
+        os.chdir('/'.join(ruta.split("/")[:-1]))
         os.getcwd()
         os.makedirs("u850_mean_values_time_regression",exist_ok=True)
         ensemble.to_netcdf(ruta+'/'+entry+'/'+var+'_'+model+'_regression_coefficients.nc')
@@ -206,8 +206,7 @@ def jet_lat_strength(jet_data,lon1=140,lon2=295):
     return np.array(jet_lat.values),jet_strength
 
 
-def regressor_EESC_GW(gw_ts):
-    eesc_ts = pd.read_csv('/Users/juliamindlin/Desktop/Amon_Omon_recipe_allmodels_allmembers_additional_models_u850_sst_pr_tas_psl_20230529_080043/GW_EESC_polar_ozoneloss.csv')
+def regressor_EESC_GW(gw_ts,eesc_ts):
     for i in range(len(eesc_ts[:8])):
         eesc_ts['EESC_polar'][i] = eesc_ts['EESC_polar'][8]
     df = pd.DataFrame({'EESC':(eesc_ts['EESC_polar'][:-1] - eesc_ts['EESC_polar'][8]),'GW':gw_ts})
@@ -232,7 +231,7 @@ def linear_regression_pvalues(y,x):
 def stand(x):
     return (x - np.mean(x)) / np.std(x)
 
-def regression_driver_gw(dic):
+def regression_driver_gw(dic,gw_index):
     dic_out = {}
     for model in dic.keys():
         dic_out[model] = {}
@@ -245,12 +244,12 @@ def regression_driver_gw(dic):
     
     return dic_out
 
-def regression_driver_eesc_gw(dic):
+def regression_driver_eesc_gw(dic,gw_index,eesc_ts):
     dic_out = {}
     for model in dic.keys():
         dic_out[model] = {}
         gw_ts = gw_index[model]['EnsembleMean'].sel(time=slice('1950','2100')).values - np.mean(gw_index[model]['EnsembleMean'].sel(time=slice('1950','2100')).values[:30])
-        y = regressor_EESC_GW(gw_ts)
+        y = regressor_EESC_GW(gw_ts,eesc_ts)
         coef = linear_regression(y,dic[model]['EnsembleMean'].sel(time=slice('1950','2100')).values)   
         pval = linear_regression_pvalues(y,dic[model]['EnsembleMean'].sel(time=slice('1950','2100')).values)
         dic_out[model]['coef'] = coef
