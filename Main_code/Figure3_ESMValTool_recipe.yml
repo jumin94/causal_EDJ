@@ -1,0 +1,3040 @@
+documentation:
+  title: title
+  description: descr
+  authors:
+  - cos_josep
+
+
+datasets_Amon: &dAmon
+- dataset: MIROC-ES2L
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r9i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r7i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r6i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r10i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r5i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r8i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r9i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r15i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r35i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r31i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r10i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r47i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r49i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r22i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r8i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r11i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r34i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r12i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r45i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r19i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r23i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r7i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r38i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r36i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r26i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r39i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r16i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r29i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r24i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r28i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r48i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r43i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r27i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r17i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r18i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r40i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r25i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r21i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r42i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r14i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r37i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r13i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r46i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r33i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r32i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r50i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r41i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r20i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r30i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: INM-CM5-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr1
+  project: CMIP6
+- dataset: INM-CM4-8
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr1
+  project: CMIP6
+- dataset: NorESM2-LM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: NorESM2-MM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: CanESM5
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r13i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r9i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r15i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r10i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r11i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r15i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r9i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r16i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r22i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r8i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r11i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r12i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r1i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r12i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r19i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r23i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r25i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r18i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r19i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r7i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r3i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r16i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r7i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r24i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r22i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r20i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r17i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r18i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r25i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r21i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r2i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r14i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r8i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r17i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r24i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r13i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r4i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r21i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r10i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r6i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r14i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r23i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r5i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r20i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CMCC-CM2-SR5
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CMCC-ESM2
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: HadGEM3-GC31-MM
+  ensemble: r2i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r3i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r1i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r4i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r2i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r3i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r1i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r4i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r8i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: CNRM-CM6-1
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r6i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r5i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r5i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: BCC-CSM2-MR
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CESM2-WACCM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CESM2
+  ensemble: r11i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: ACCESS-ESM1-5
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r9i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r10i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r8i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r7i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: NESM3
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: NESM3
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: KACE-1-0-G
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: KACE-1-0-G
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: KACE-1-0-G
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CAMS-CSM1-0
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CAMS-CSM1-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CAS-ESM2-0
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CAS-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IITM-ESM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: EC-Earth3
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: MCM-UA-1-0
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r14i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r33i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CIESM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r9i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r10i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r8i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r7i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r1i2p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: GISS-E2-1-H
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r4i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r1i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r5i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r2i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r3i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r5i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+datasets_Omon: &dOmon
+- dataset: E3SM-1-0
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: INM-CM5-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr1
+  project: CMIP6
+- dataset: INM-CM4-8
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr1
+  project: CMIP6
+- dataset: NorESM2-LM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: NorESM2-MM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: CanESM5
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r13i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r9i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r15i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r10i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r11i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r15i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r9i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r16i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r22i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r8i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r11i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r12i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r1i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r12i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r19i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r23i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r25i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r18i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r19i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r7i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r3i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r16i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r7i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r24i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r22i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r20i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r17i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r18i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r25i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r21i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r2i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r14i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r8i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r17i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r24i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r13i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r4i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r21i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r10i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r6i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r14i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r23i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r5i1p2f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r20i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CMCC-CM2-SR5
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CMCC-ESM2
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: HadGEM3-GC31-MM
+  ensemble: r2i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r3i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r1i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r4i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r2i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r3i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r1i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r4i1p1f3
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: UKESM1-0-LL
+  ensemble: r8i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: CNRM-CM6-1
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gr1
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r6i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r5i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r5i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: BCC-CSM2-MR
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CESM2-WACCM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CESM2
+  ensemble: r11i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: ACCESS-ESM1-5
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r9i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r10i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r8i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r7i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-ESM1-5
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: NESM3
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: NESM3
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: KACE-1-0-G
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: KACE-1-0-G
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: KACE-1-0-G
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: CAMS-CSM1-0
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CAMS-CSM1-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: FGOALS-g3
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CAS-ESM2-0
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CAS-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IITM-ESM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: EC-Earth3
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MCM-UA-1-0
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r14i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: IPSL-CM6A-LR
+  ensemble: r33i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: CIESM
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r6i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r9i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r10i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r8i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r7i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r4i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r5i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r2i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r1i2p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r3i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - historical
+  - ssp585
+  grid: gr
+  project: CMIP6
+- dataset: GISS-E2-1-H
+  ensemble: r4i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r4i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r1i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r1i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r5i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r2i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r2i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r3i1p3f1
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r5i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: GISS-E2-1-H
+  ensemble: r3i1p1f2
+  exp:
+  - historical
+  - ssp585
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+
+
+preprocessors:
+  general_preproc:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+  general_preproc_spv:
+    extract_season:
+      season: ond
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - ond
+  Amon_regrid:
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  Omon_regrid:
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+  ZM:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -10
+      end_latitude: 10
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+  CP:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -5
+      end_latitude: 5
+      start_longitude: 180
+      end_longitude: 250
+    area_statistics:
+      operator: mean
+  EP:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: 0
+      end_latitude: 10
+      start_longitude: 270
+      end_longitude: 280
+    area_statistics:
+      operator: mean
+  TA:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_levels:
+      levels:
+      - 25000.0
+      scheme: linear
+    extract_region:
+      start_latitude: -15
+      end_latitude: 15
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+  GW:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -90
+      end_latitude: 90
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+  SPV:
+    extract_season:
+      season: ond
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - ond
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -60
+      end_latitude: -50
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+    extract_levels:
+      levels:
+      - 5000.0
+      scheme: linear
+  UA850:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_levels:
+      levels:
+      - 85000.0
+      scheme: linear
+  PR:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  TAS:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  PSL:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  SST:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+  default: {}
+diagnostics:
+  multiple_regression_indices:
+    variables:
+      tos_cp:
+        exp:
+        - historical
+        - ssp585
+        mip: Omon
+        preprocessor: CP
+        project: CMIP6
+        short_name: tos
+        timerange: &time 1900/2099
+        additional_datasets: *dOmon
+      tos_zm:
+        exp:
+        - historical
+        - ssp585
+        mip: Omon
+        preprocessor: ZM
+        project: CMIP6
+        short_name: tos
+        timerange: *time
+        additional_datasets: *dOmon
+      tos_ep:
+        exp:
+        - historical
+        - ssp585
+        mip: Omon
+        preprocessor: EP
+        project: CMIP6
+        short_name: tos
+        timerange: *time
+        additional_datasets: *dOmon
+      gw:
+        exp:
+        - historical
+        - ssp585
+        mip: Amon
+        preprocessor: GW
+        project: CMIP6
+        short_name: tas
+        timerange: *time
+        additional_datasets: *dAmon
+      ta:
+        exp:
+        - historical
+        - ssp585
+        mip: Amon
+        preprocessor: TA
+        project: CMIP6
+        timerange: *time
+        additional_datasets: *dAmon
+      ua50_spv:
+        exp:
+        - historical
+        - ssp585
+        mip: Amon
+        preprocessor: SPV
+        project: CMIP6
+        short_name: ua
+        timerange: *time
+        additional_datasets: *dAmon
+      ua850:
+        exp:
+        - historical
+        - ssp585
+        mip: Amon
+        preprocessor: UA850
+        project: CMIP6
+        short_name: ua
+        timerange: *time
+        additional_datasets: *dAmon
+      sst:
+        exp:
+        - historical
+        - ssp585
+        mip: Omon
+        preprocessor: SST
+        project: CMIP6
+        short_name: tos
+        timerange: *time
+        additional_datasets: *dOmon
+      pr:
+        exp:
+        - historical
+        - ssp585
+        mip: Amon
+        preprocessor: PR
+        project: CMIP6
+        timerange: *time
+        additional_datasets: *dAmon
+      tas:
+        exp:
+        - historical
+        - ssp585
+        mip: Amon
+        preprocessor: TAS
+        project: CMIP6
+        timerange: *time
+        additional_datasets: *dAmon
+      psl:
+        exp:
+        - historical
+        - ssp585
+        mip: Amon
+        preprocessor: PSL
+        project: CMIP6
+        timerange: *time
+        additional_datasets: *dAmon
+    scripts:
+      multiple_regresion:
+        script: /home/jmindlin/historical_period_storylines/scripts/multiple_linear_regression_ua_sst_pr_psl_tas.py
