@@ -1,0 +1,675 @@
+documentation:
+  title: title
+  description: descr
+  authors:
+  - cos_josep
+
+  
+datasets_Amon: &dAmon
+- dataset: FGOALS-g3
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: FGOALS-f3-L
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: ACCESS-ESM1-5
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-LL
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: BCC-CSM2-MR
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: CAS-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CESM2
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CESM2-WACCM
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CNRM-CM6-1-HR
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CAMS-CSM1-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-HR
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: UKESM1-0-LL
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: IPSL-CM6A-LR
+  ensemble: r1i2p1f1
+  exp:
+  - piControl
+  grid: gr
+  project: CMIP6
+- dataset: CIESM
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gr
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: EC-Earth3
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gr
+  project: CMIP6
+- dataset: EC-Earth3-Veg
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: GISS-E2-1-H
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: MCM-UA-1-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: NESM3
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+datasets_Omon: &dOmon
+- dataset: HadGEM3-GC31-LL
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: HadGEM3-GC31-MM
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: FGOALS-g3
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: FGOALS-f3-L
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: MPI-ESM1-2-LR
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: MRI-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: ACCESS-ESM1-5
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: ACCESS-CM2
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: BCC-CSM2-MR
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: CAS-ESM2-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CESM2
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CESM2-WACCM
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CNRM-CM6-1
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CNRM-CM6-1-HR
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CNRM-ESM2-1
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CanESM5
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: E3SM-1-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: CAMS-CSM1-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: MPI-ESM1-2-HR
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: UKESM1-0-LL
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+  supplementary_variables:
+    - short_name: areacella
+      skip: true
+- dataset: IPSL-CM6A-LR
+  ensemble: r1i2p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: CIESM
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: MIROC6
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: MIROC-ES2L
+  ensemble: r1i1p1f2
+  exp:
+  - piControl
+  grid: gn
+  project: CMIP6
+- dataset: EC-Earth3
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: EC-Earth3-Veg
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: GISS-E2-1-H
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: MCM-UA-1-0
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+- dataset: NESM3
+  ensemble: r1i1p1f1
+  exp:
+  - piControl
+  grid: '*'
+  project: CMIP6
+preprocessors:
+  general_preproc:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+  general_preproc_spv:
+    extract_season:
+      season: ond
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - ond
+  Amon_regrid:
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  Omon_regrid:
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+  ZM:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -10
+      end_latitude: 10
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+  CP:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -5
+      end_latitude: 5
+      start_longitude: 180
+      end_longitude: 250
+    area_statistics:
+      operator: mean
+  EP:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: 0
+      end_latitude: 10
+      start_longitude: 270
+      end_longitude: 280
+    area_statistics:
+      operator: mean
+  TA:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_levels:
+      levels:
+      - 25000.0
+      scheme: linear
+    extract_region:
+      start_latitude: -15
+      end_latitude: 15
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+  TA250:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_levels:
+      levels:
+      - 25000.0
+      scheme: linear
+  GW:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -90
+      end_latitude: 90
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+  SPV:
+    extract_season:
+      season: ond
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - ond
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_region:
+      start_latitude: -60
+      end_latitude: -50
+      start_longitude: 0
+      end_longitude: 360
+    area_statistics:
+      operator: mean
+    extract_levels:
+      levels:
+      - 5000.0
+      scheme: linear
+  UA850:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+    extract_levels:
+      levels:
+      - 85000.0
+      scheme: linear
+  PR:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  TAS:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  PSL:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme:
+        reference: esmf_regrid.schemes:ESMFAreaWeighted
+      target_grid: 2.5x2.5
+  SST:
+    extract_season:
+      season: djf
+    seasonal_statistics:
+      operator: mean
+      seasons:
+      - djf
+    regrid:
+      scheme: linear
+      target_grid: 2.5x2.5
+  default: {}
+diagnostics:
+  multiple_regression_indices:
+    variables:
+      gw:
+        exp:
+        - piControl
+        mip: Amon
+        preprocessor: GW
+        project: CMIP6
+        short_name: tas
+        timerange: '*'
+        additional_datasets: *dAmon 
+      ta:
+        exp:
+        - piControl
+        mip: Amon
+        preprocessor: TA
+        project: CMIP6
+        timerange: '*'
+        additional_datasets: *dAmon
+      ta250:
+        exp:
+        - piControl
+        mip: Amon
+        preprocessor: TA250
+        project: CMIP6
+        short_name: ta
+        timerange: '*'
+        additional_datasets: *dAmon
+      ua50_spv:
+        exp:
+        - piControl
+        mip: Amon
+        preprocessor: SPV
+        project: CMIP6
+        short_name: ua
+        timerange: '*'
+        additional_datasets: *dAmon
+      ua850:
+        exp:
+        - piControl
+        mip: Amon
+        preprocessor: UA850
+        project: CMIP6
+        short_name: ua
+        timerange: '*'
+        additional_datasets: *dAmon
+      sst:
+        exp:
+        - piControl
+        mip: Omon
+        preprocessor: SST
+        project: CMIP6
+        short_name: tos
+        timerange: '*'
+        additional_datasets: *dOmon
+      tas:
+        exp:
+        - piControl
+        mip: Amon
+        preprocessor: TAS
+        project: CMIP6
+        timerange: '*'
+        additional_datasets: *dAmon 
+      psl:
+        exp:
+        - piControl
+        mip: Amon
+        preprocessor: PSL
+        project: CMIP6
+        timerange: '*'
+        additional_datasets: *dAmon
+
+    scripts:
+      multiple_regresion:
+        script: /home/jmindlin/historical_period_storylines/scripts/piControl_analysis/CEN_regression_espacial_paralel_picontrol.py
+
